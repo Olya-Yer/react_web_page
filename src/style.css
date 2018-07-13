@@ -1,0 +1,22 @@
+.page {
+  background-color: yellow;
+
+}
+.menu{
+  display: flex;
+   flex-direction: row;
+   background-color: red;
+}
+.menuBar{
+  display: flex;
+  flex-direction: row;
+}
+.menuButton{
+  width: 30%;
+  padding: 50px;
+  height: 20px;
+  font-size: 30px;
+}
+.logo {
+  width: 30%;
+}
