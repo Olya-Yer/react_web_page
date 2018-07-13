@@ -1,22 +1,73 @@
-.page {
-  background-color: yellow;
 
-}
 .menu{
   display: flex;
    flex-direction: row;
-   background-color: red;
+   background-color:lightcyan;
+   padding: 20px;
 }
 .menuBar{
   display: flex;
   flex-direction: row;
+  width: 70%;
+  align-self: auto;
+  justify-content: flex-end;
 }
 .menuButton{
-  width: 30%;
-  padding: 50px;
-  height: 20px;
+  padding: 5px;
+  height: 100%;
+  margin-left: 70px;
   font-size: 30px;
+  border-style: groove;
+  border-color: lightgray;
+  border-width: 1px;
+  border-radius: 4px;
 }
 .logo {
   width: 30%;
+  background-image: url("../images/logo.png");
+  background-size: 100% 100%;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+}
+.big_image {
+  width: 50%;
+  background: url(../images/big_image.png);
+  background-size: 100%;
+}
+.registration_form {
+  padding: 40px;
+  width: 50%;
+
+}
+.reg_form {
+  border-style: solid;
+  border-color: lightslategray;
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+}
+.text_area {
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border-style: groove;
+  border-color: lightgray;
+  border-width: 2px;
+  border-radius: 5px;
+}
+.reg_button {
+  width: 50%;
+  height: 30px;
+  align-self: center;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.aboutUsBox {
+  width: 100%;
+  height: 400px;
+  background-color: brown;
 }
