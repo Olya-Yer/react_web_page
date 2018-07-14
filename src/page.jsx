@@ -1,18 +1,19 @@
-import React from 'react'
+import React, { Component } from 'react'
 import MenuBar from './menuBar'
 import Content from './content'
+import { Link } from 'react-router-dom';
 
-class Page extends React.Component {
+class Page extends Component {
     render() {
         return (
             <div className='page'>
                 <div className='menu'>
-                    <div className='logo'></div>
+                    <Link className='logo' to="/"></Link>
                     <MenuBar />
                 </div>
                 <div className='main_page'>
-                    <Content />}
-          </div>
+                    <Content />
+                </div>
             </div>
         )
     }

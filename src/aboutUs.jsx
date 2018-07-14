@@ -1,14 +1,20 @@
 import React from 'react'
 
-class aboutUs extends React.Component {
+class AboutUs extends React.Component {
+    goBack(e) {
+        e.preventDefault();
+        const {history} = this.props;
+        history.goBack();
+    }
     render() {
-        console.log("in aboutUs")
+        console.log(this.props);
         return (
-            <div className="aboutUsBox"></div>
+            <div className="aboutUsBox">
+                <a href="#" onClick={(e) => this.goBack(e)}>Go back</a>
+                <div>about us</div>
+            </div>
         )
     }
 }
 
-
-
-export default aboutUs
+export default AboutUs;
