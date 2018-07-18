@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 class Content extends React.Component {
     render() {
         return (
@@ -32,4 +33,4 @@ class RegistrationForm extends React.Component {
     }
 }
 
-export default Content
+export default Content;

@@ -6,8 +6,10 @@
     "history": "^4.7.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "redux": "^4.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -15,5 +17,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olinka-1993/react_web_page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olinka-1993/react_web_page/issues"
+  },
+  "homepage": "https://github.com/olinka-1993/react_web_page#readme"
 }

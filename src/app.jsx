@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import Page from './page';
 import aboutUs from './aboutUs';
 
@@ -14,4 +14,5 @@ class App extends Component {
 
     }
 }
+
 export default App;
